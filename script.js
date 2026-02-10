@@ -5,7 +5,7 @@ document.getElementById("contactForm").addEventListener("submit", async function
     const email = document.getElementById("email").value;
     const message = document.getElementById("message").value;
 
-    const res = await fetch("https://portfolio-lb1j.onrender.com/api/contact", {
+    const res = await fetch("https://portfolio-lb1j.onrender.com/contact", {
         method:"POST",
         headers:{
             "Content-Type":"application/json"
